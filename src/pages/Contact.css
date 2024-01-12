@@ -1,0 +1,115 @@
+.contact{
+    padding-top: 10vh;
+}
+.contactheader {
+    background: #232733;
+    padding-top: 8vh;
+    border: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    margin: auto;
+    max-width: 800px;
+    width: 90%;
+    padding-bottom: 3vh;
+}
+.contact h1{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+}
+.contactbody {
+    background: #232733;
+    border: 1px solid white;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    max-width: 800px;
+    width: 90%;
+}
+.contact p{
+    color: white;
+    text-align: center;
+    padding-top: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 5vh;
+}
+
+
+.emailicon {
+    filter: invert(100%)
+}
+.emaillink {
+    text-align: center;
+    padding-bottom: 4vh;
+}
+.emaillink a {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 1vh;
+    padding-left: 1vh;
+}
+.emaillink a:hover {
+    transition-duration: 0.3s;
+    color: rgb(32, 80, 112);
+}
+
+
+.linkedinicon {
+    filter: invert(100%)
+}
+.linkedinlink {
+    text-align: center;
+    padding-bottom: 4vh;
+}
+.linkedinlink a {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 1vh;
+    padding-left: 1vh;
+}
+
+.linkedinlink a:hover {
+    transition-duration: 0.3s;
+    color: rgb(32, 80, 112);
+}
+
+
+
+
+
+
+
+
+
+.githubicon {
+    filter: invert(100%)
+}
+.githublink {
+    text-align: center;
+    padding-bottom: 4vh;
+}
+.githublink a {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 1vh;
+    padding-left: 1vh;
+}
+
+.githublink a:hover {
+    transition-duration: 0.3s;
+    color: rgb(32, 80, 112);
+}

@@ -1,0 +1,43 @@
+.projectlist {
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.project-div {
+    align-items: start;
+    background: #232733;
+    border: 2px solid white;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+    padding: 1em;
+    position: relative;
+}
+.project-icon {
+    filter: invert(100%);
+}
+.project-div a {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.project-div a:hover {
+    transition-duration: 0.3s;
+    color: rgb(32, 80, 112);
+}
+.project-desc{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 4vh;
+}
