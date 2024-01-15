@@ -2,4 +2,4 @@
 
 My personal website - built using React, Bootstrap. Hosted with AWS Amplify. 
 
-<a href="https://www.thomasqi.com">www.thomasqi.com</a>
+<a href="https://www.thomasqi.com" target=”_blank”>www.thomasqi.com</a>
