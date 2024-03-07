@@ -1,22 +1,34 @@
 import "./AboutMe.css";
 
-const AboutMe = () => {
+interface Props {
+  toProjects: () => void;
+  toContact: () => void;
+}
+
+const AboutMe = ({ toProjects, toContact }: Props) => {
   return (
     <div className="about">
       <h1>About Me</h1>
       <p>
-        I am an 18-year-old{" "}
-        <span style={{ color: "rgb(209, 123, 91)" }}>Frontend Developer</span>{" "}
-        proficient in{" "}
-        <span style={{ color: "rgb(119, 152, 202)" }}>React.js</span> and
-        <span style={{ color: "rgb(119, 152, 202)" }}> HTML/CSS</span> as well
-        as technologies such as{" "}
-        <span style={{ color: "rgb(159, 192, 146)" }}>Selenium</span> and{" "}
-        <span style={{ color: "rgb(159, 192, 146)" }}>AWS</span>. I am also a
-        coding tutor and have taught introductory Java courses at{" "}
-        <a href="https://www.codingpals.org/">Coding Pals</a>. In my free time,
-        I create personal projects, which can range from Arduino projects to
-        Website Automation.
+        I'm a first-year computer science student with experience in{" "}
+        <span style={{ color: "rgb(209, 123, 91)" }}>
+          full-stack development
+        </span>{" "}
+        , <span style={{ color: "rgb(209, 123, 91)" }}>iOS development</span>,{" "}
+        and{" "}
+        <span style={{ color: "rgb(209, 123, 91)" }}>automation testing</span>.
+        I was previously a coding tutor and have taught intermediate Java
+        courses at <a href="https://www.codingpals.org/">Coding Pals</a>. I'm
+        always interested to learn more about math and computer science - from
+        statistics to machine learning.
+        <br /> <br />
+        Feel free to reach out to me through the{" "}
+        <a onClick={toContact}>contact</a> page :D
+        <br />
+        <br />
+        While you're at it, check out some of my cool{" "}
+        <a onClick={toProjects}>projects</a> :{")"}
+        <br />
       </p>
     </div>
   );

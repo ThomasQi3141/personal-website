@@ -3,6 +3,7 @@ import AboutMe from "../components/AboutMe";
 import Background from "../components/Background";
 import LandingText from "../components/LandingText";
 import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const scrollToAbout = () => {
@@ -11,12 +12,19 @@ const Home = () => {
       behavior: "smooth",
     });
   };
+  const navigate = useNavigate();
+  const toProjects = () => {
+    navigate("/projects");
+  };
+  const toContact = () => {
+    navigate("/contact");
+  };
   return (
     <div className="home">
       <Background />
       <LandingText />
       <AboutButton onClick={scrollToAbout} />
-      <AboutMe />
+      <AboutMe toProjects={toProjects} toContact={toContact} />
       <Navbar />
     </div>
   );
