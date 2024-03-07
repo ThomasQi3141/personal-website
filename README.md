@@ -11,5 +11,5 @@ My personal website - more updates to come in the future!
 ➡️ Bootstrap <br />
 ➡️ AWS Amplify <br />
 
-<img width="1512" alt="Screenshot 2024-01-15 at 7 46 44 PM" src="https://github.com/ThomasQi3141/personal-website/assets/131242218/1abc0367-c226-4526-b19f-d576ff8b3b4a">
+<img width="1509" alt="Screenshot 2024-03-07 at 1 58 58 AM" src="https://github.com/ThomasQi3141/personal-website/assets/131242218/788dda57-7ab4-4fad-be07-c044e9ce9bb6">
 
