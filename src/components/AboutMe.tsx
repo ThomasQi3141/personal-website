@@ -20,6 +20,9 @@ const AboutMe = ({ toProjects, toContact }: Props) => {
         <a href="https://www.atomic.dev/" target="_blank">
           Atomic
         </a>
+        . Outside of school, you can find me playing poker {"("}not with real
+        money{")"}, hitting the gym, or waiting in the Tims line for my iced
+        coffee.
         <br /> <br />
         Feel free to reach out to me through the{" "}
         <a onClick={toContact}>contact</a> page :D
