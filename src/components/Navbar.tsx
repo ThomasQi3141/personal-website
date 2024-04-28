@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import resumePDF from "../assets/Resume.pdf";
 
 const Navbar = () => {
   //Navigate through webpages on click
@@ -10,9 +11,6 @@ const Navbar = () => {
   }
   function toProjects() {
     navigate("/projects");
-  }
-  function toResume() {
-    navigate("/resume");
   }
   function toContact() {
     navigate("/contact");
@@ -40,7 +38,9 @@ const Navbar = () => {
           <a onClick={toProjects}>Projects</a>
         </li>
         <li>
-          <a onClick={toResume}>Resume</a>
+          <a href={resumePDF} target="_blank">
+            Resume
+          </a>
         </li>
         <li>
           <a onClick={toContact}>Contact</a>
