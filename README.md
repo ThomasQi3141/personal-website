@@ -1,4 +1,4 @@
-<h1>Personal Wesbite</h1>
+<h1>Personal Wesbite (old)</h1>
 
 Source code of my old personal website, check out the code for my new personal website <a href="https://github.com/ThomasQi3141/personal-website-v2">here</a>!
 
