@@ -1,9 +1,6 @@
 <h1>Personal Wesbite</h1>
 
-My personal website - more updates to come in the future!
-
-
-<a href="https://www.thomasqi.com" target=”_blank”>www.thomasqi.com</a>
+Source code of my old personal website, check out the code for my new personal website <a href="https://github.com/ThomasQi3141/personal-website-v2">here</a>!
 
 
 ### Technologies Used:
